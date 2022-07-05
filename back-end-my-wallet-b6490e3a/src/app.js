@@ -1,5 +1,6 @@
 import cors from "cors";
 import express, { json } from "express";
+import "express-async-errors";
 
 import { handleError } from "./middlewares/errorMiddleware.js";
 import routes from "./routers/index.js";
